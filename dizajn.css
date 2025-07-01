@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+/*centrira formu div na stranici*/
+body {
+    height: 100vh;
+    background-color: bisque;
+
+    /* Center the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forma {
+    /*centrira elemente u div*/
+    display: flex; /*dodano da ih mogu jedan ispod drugog stavit*/
+
+    background-color: burlywood;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+    flex-direction: column;
+    gap: 10px; /* spacing between items */
+
+
+}
